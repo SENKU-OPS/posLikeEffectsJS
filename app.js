@@ -38,8 +38,8 @@ window.addEventListener('scroll', () => {
         imageSection1.style.opacity = "1";
 
     } else {
-        if (window.innerHeight < 400) {
-            imageSection1.style.transform = "translateY(90px)";
+        if (window.innerHeight < 470) {
+            imageSection1.style.transform = "translateY(80px)";
         } else {
             imageSection1.style.transform = 'translateY(290px)';
         }
@@ -56,12 +56,12 @@ window.addEventListener('scroll', () => {
         imageSection2.style.opacity = "1";
 
     } else {
-        if (window.innerHeight < 400) {
-            imageSection2.style.transform = "translateY(90px)";
+        if (window.innerHeight < 470) {
+            imageSection2.style.transform = "translateY(80px)";
         } else {
             imageSection2.style.transform = 'translateY(290px)';
         }
-        imageSection2.style.opacity = "0";
+        imageSection2.style.opacity = "1";
 
     }
 
